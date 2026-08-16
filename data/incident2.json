@@ -1,0 +1,15 @@
+{
+    "incident_id": "INC-002",
+    "incident_type": "Malware Infection",
+    "severity": "Medium",
+    "date": "2026-07-29",
+    "affected_user": "employee02",
+    "status": "Under Investigation",
+    "description": "Endpoint antivirus detected malware after a user downloaded an attachment.",
+
+    "iocs": {
+        "ip_address": "192.168.10.25",
+        "domain": "malicious-download.com",
+        "file_hash": "b73d9123456789abcdef"
+    }
+}

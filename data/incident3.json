@@ -1,0 +1,15 @@
+{
+    "incident_id": "INC-003",
+    "incident_type": "Brute Force Attack",
+    "severity": "High",
+    "date": "2026-07-30",
+    "affected_user": "admin01",
+    "status": "Contained",
+    "description": "Multiple failed login attempts were detected against an administrator account.",
+
+    "iocs": {
+        "ip_address": "45.88.12.90",
+        "domain": "Unknown",
+        "file_hash": "N/A"
+    }
+}

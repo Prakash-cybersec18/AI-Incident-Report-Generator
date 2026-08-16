@@ -1,0 +1,14 @@
+{
+    "incident_id": "INC-001",
+    "incident_type": "Phishing Attack",
+    "severity": "High",
+    "date": "2026-07-28",
+    "description": "Employee received a phishing email and clicked a malicious link.",
+    "affected_user": "employee01",
+    "status": "Resolved",
+    "iocs": {
+        "ip_address": "185.10.20.30",
+        "domain": "fake-login-site.com",
+        "file_hash": "a84f9c12345"
+    }
+}
