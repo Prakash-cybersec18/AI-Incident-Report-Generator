@@ -139,3 +139,17 @@ AI-Incident-Report-Generator/
 ### CSV Incident Summary
 
 ![CSV Incident Summary](screenshots/csv-summary.png)
+
+## Troubleshooting
+
+### CSV Permission Error
+
+If you see:
+
+`PermissionError: [Errno 13] Permission denied: 'reports/incident_summary.csv'`
+
+make sure `incident_summary.csv` is not open in Excel or another application, then run the application again.
+
+### Gemini API Unavailable
+
+If Gemini is temporarily unavailable, the application displays a warning and continues processing the incident without AI-generated analysis.
