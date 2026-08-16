@@ -120,3 +120,22 @@ AI-Incident-Report-Generator/
 +-- requirements.txt
 +-- README.md
 +-- .gitignore
+ 
+ 
+## Screenshots
+
+### Terminal Execution
+
+![Terminal Execution](screenshots/terminal-execution.png)
+
+### HTML Incident Report
+
+![HTML Incident Report](screenshots/html-report.png)
+
+### PDF Incident Report
+
+![PDF Incident Report](screenshots/pdf-report.png)
+
+### CSV Incident Summary
+
+![CSV Incident Summary](screenshots/csv-summary.png)
