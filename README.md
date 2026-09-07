@@ -121,7 +121,30 @@ AI-Incident-Report-Generator/
 +-- README.md
 +-- .gitignore
  
- 
+## Setup & Running
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 2. Configure API keys
+Create a `.env` file in the project root:
+
+GEMINI_API_KEY=your-gemini-api-key-here
+VIRUSTOTAL_API_KEY=your-virustotal-api-key-here
+
+Get a Gemini key from [Google AI Studio](https://aistudio.google.com/apikey) and a VirusTotal key from your [VirusTotal account](https://www.virustotal.com/gui/my-apikey) (free tier available for both).
+
+### 3. Run the analyzer
+```bash
+python app/main.py
+```
+This processes the incident JSON files in `data/`, enriches IOCs via VirusTotal, maps techniques to MITRE ATT&CK, and generates HTML/PDF reports plus a CSV summary in the `reports/` folder.
+
+### 4. Point it at your own incidents
+Drop your own incident JSON files into `data/` following the same structure as `incident1.json`–`incident3.json`, then re-run step 3.
+
 ## Screenshots
 
 ### Terminal Execution
